@@ -1,0 +1,121 @@
+﻿
+<html>
+<script src="my.js"></script>
+<head>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6640784155676360",
+    enable_page_level_ads: true
+  });
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>金門找美食</title>
+</head>
+<style>
+
+body {
+
+ background-color: 	#222222;
+}
+#Header {
+font-size: 150%;
+}
+#Header h1{
+   color: #DDDDDD;
+}
+
+#service {
+    float:left;
+    width:100%;
+    background-color: #444444;
+	font-size: 150%;
+}
+#service p{
+  color: #DDDDDD;
+}
+#info p{
+color: #DDDDDD;
+}
+#other{
+    float:left;
+   
+}
+
+#other #flag{
+width:50%;
+height:auto;
+}
+#other #myad{
+width:40%;
+height:auto;
+}
+
+#map{
+
+ width:100%;
+ height:381px;
+
+
+
+}
+#info{
+    font-size: 150%;
+}
+
+
+</style>
+
+<body>
+<div id="other">
+<a href="https://info.flagcounter.com/nxIO"><img id="flag" src="https://s01.flagcounter.com/count2/nxIO/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_25/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+
+<script>
+show_myinfo();
+</script>
+
+</div>
+<div style='clear:both;'></div>
+<div id="Header">
+<h1>金門找美食</h1>
+</div>
+<div id="service">
+<p>項目:
+<select id="category"  style="font-size: 120%;">
+  <option value="1">午晚餐</option>
+  <option value="2">早餐/小吃類</option>
+  <option value="3">麵包糕點/特產</option>
+  <option value="4">飲料類</option>
+    <option value="5">宵夜</option>
+</select>
+</p>
+<p>
+地區:
+<select id="region" style="font-size: 120%;">
+  <option value="1">金湖鎮</option>
+  <option value="2">金沙鎮</option>
+  <option value="3">金城鎮</option>
+  <option value="4">金寧鄉</option>
+  <option value="5">烈嶼鄉</option>
+</select>
+</p>
+<button type="button" style="font-size: 120%;" onclick="select_item()">產生</button>
+</div>
+
+<div id="info">
+
+
+
+</div>
+
+<br/>
+<div  id="map">
+</div>
+<!---google map API-->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLEOOT0VKD3CXdOcE_ZuUhJMGKNiBWJTs&callback=initMap"
+  type="text/javascript">
+</script>
+
+</body>
+</html>
